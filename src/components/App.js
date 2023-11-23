@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header name="Overreacted" />
       <About image='../../images/demo.png' about={blogData.about} />
-      <ArticleList articles={blogData.posts} />
+      <ArticleList article1={blogData.posts[0]} article2={blogData.posts[1]} article3={blogData.posts[2]} />
     </div>
   );
 }
